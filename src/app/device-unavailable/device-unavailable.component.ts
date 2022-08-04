@@ -79,7 +79,19 @@ export class DeviceUnavailableComponent implements OnInit {
     "Time": "48minutes, 59seconds, 10milliseconds",
     "Location": "Vienna",
     "Contact": "vienna-support@gmail.com"
-  }]
+  },
+  {
+    "_id": {
+      "$oid": "62eb6fff1c47a73d87125ec5"
+    },
+    "Device": "Vienna-srv",
+    "PingState": "down",
+    "IP": "192.168.1.0",
+    "Time": "48minutes, 59seconds, 10milliseconds",
+    "Location": "Vienna",
+    "Contact": "vienna-support@gmail.com"
+  },
+]
 
   ngOnInit(): void {
   }
