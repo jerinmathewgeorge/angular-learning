@@ -14,7 +14,8 @@ import { LatencyComponent } from './latency/latency.component';
     AppComponent,
     LayoutComponent,
     DeviceUnavailableComponent,
-    EventsComponent    ,StatusCardComponent,
+    EventsComponent,
+    StatusCardComponent,
     LatencyComponent
   ],
   imports: [
