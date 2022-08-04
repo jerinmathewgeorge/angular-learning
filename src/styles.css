@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    background-color: #ececec;
+    height: 100vh;
+}
+.position-absolute {
+    position: absolute;
+}
+.flex-row {
+    display: flex;
+    flex-flow: row;
+}
+.flex-column {
+    display: flex;
+    flex-flow: column;
+}
+.p-2 { padding: 2px; }
+.p-4 { padding: 4px; }
+
+.align-center { text-align: center;}

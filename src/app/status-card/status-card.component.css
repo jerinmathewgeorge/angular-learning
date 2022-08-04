@@ -1,0 +1,17 @@
+.card-item {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    position: relative;
+}
+.card-value {
+    font-size: xx-large;
+    font-weight: 600;
+}
+.pop-out {
+    left: 5px;
+    top: 0;
+}
+.pop-out img {
+    width: 10px;
+    height: 10px;
+}
