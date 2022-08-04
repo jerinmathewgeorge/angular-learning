@@ -20,7 +20,7 @@ import { LatencyComponent } from './latency/latency.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
