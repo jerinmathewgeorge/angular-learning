@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
 import { StatusCardComponent } from './status-card/status-card.component';
+import { DeviceUnavailableComponent } from './device-unavailable/device-unavailable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutComponent,
-    StatusCardComponent
+    StatusCardComponent,
+    DeviceUnavailableComponent,
   ],
   imports: [
     BrowserModule,
