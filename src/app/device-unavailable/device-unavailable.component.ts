@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class DeviceUnavailableComponent implements OnInit {
 
   constructor() { }
+  private deviceData = [{
+    
+  }]
 
   ngOnInit(): void {
   }
