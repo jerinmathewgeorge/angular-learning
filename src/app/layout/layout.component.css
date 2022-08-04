@@ -55,6 +55,9 @@
 .right-conatiner .unavailable {
     width: 50%;;
 }
+.p-t-none {
+    padding-top: 0;
+}
 
 .right-conatiner .latency{
     width: 50%;
