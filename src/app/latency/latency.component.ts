@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { IDevicelatency } from './IlatencyInterface';
 
 @Component({
@@ -7,7 +7,6 @@ import { IDevicelatency } from './IlatencyInterface';
   styleUrls: ['./latency.component.css']
 })
 export class LatencyComponent implements OnInit {
-
   constructor() { }
 
   deviceData: IDevicelatency []=[

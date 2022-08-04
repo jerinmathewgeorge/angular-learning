@@ -8,9 +8,9 @@ import { LayoutService } from '../services/layout.service';
 })
 export class LayoutComponent implements OnInit {
 
-  @Input() latencyList = [];
-  @Input() deviceList = [];
-  @Input() eventList = [];
+  deviceList = [];
+  eventList = [];
+  latencyList = [];
   constructor(private layoutService: LayoutService) { }
 
   ngOnInit(): void {
@@ -21,19 +21,16 @@ export class LayoutComponent implements OnInit {
   getDeviceList(){
     this.layoutService.getDevicesList().subscribe((res:any)=>{
       this.deviceList = res;
-      console.log(res);
     })
   }
   getEventList(){
     this.layoutService.getEventsList().subscribe((res:any)=>{
       this.eventList = res;
-      console.log(res);
     })
   }
   getLatencyList(){
     this.layoutService.getLatencyList().subscribe((res:any)=>{
       this.latencyList = res;
-      console.log(res);
     })
   }
 
