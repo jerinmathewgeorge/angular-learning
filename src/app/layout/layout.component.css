@@ -11,10 +11,32 @@
     text-align: end;
     align-self: center;
 }
-
+.search-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.icon-10 {
+    width: 10px;
+    height: 10px;
+}
+.header-right button {
+    border-radius: unset;
+    border: none;
+    background-color: #98afbc;
+    margin-left: 2px;
+    width: 25px;
+    height: 25px;
+}
+.width-100 {
+    width: 100px !important;
+}
+.label-gray {
+    color: #555353;
+}
 .left-conatiner {
     display: flex;
-    height: 300px;
+    height: 50%;
     justify-content: space-between;
     border: 1px solid;
 
@@ -29,7 +51,7 @@
 }
 .right-conatiner {
     display: flex;
-    height: 300px;
+    height: 50%;
     justify-content: space-between;
     border: 1px solid;
     

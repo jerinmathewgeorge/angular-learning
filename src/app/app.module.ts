@@ -16,7 +16,7 @@ import { DeviceUnavailableComponent } from './device-unavailable/device-unavaila
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
