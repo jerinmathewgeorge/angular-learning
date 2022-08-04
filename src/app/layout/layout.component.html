@@ -15,7 +15,15 @@
     </div>
   </div>
   <div class="header flex-row">
-    
+    <div>
+        Group
+        <select>
+            <option>All</option>
+        </select>
+    </div>
+    <div>
+        Top N
+    </div>
   </div>
   <div class="flex-1-1">
     <div class="left-conatiner">
@@ -37,14 +45,14 @@
       </div>
       <div class="event">
         <div class="event-heading"></div>
-                <app-events></app-events>
+                <app-events [eventList]='eventList'></app-events>
       </div>
     </div>
     <div class="right-conatiner">
       <div class="unavailable">
-        <app-device-unavailable></app-device-unavailable>
+        <app-device-unavailable [deviceList]='deviceList'></app-device-unavailable>
       </div>
-      <div  class="latency"> <app-latency></app-latency></div>
+      <div  class="latency"> <app-latency [latencyList]='latencyList'></app-latency></div>
      
   </div>
 </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { IDevicelatency } from './IlatencyInterface';
 
 @Component({
@@ -7,27 +7,27 @@ import { IDevicelatency } from './IlatencyInterface';
   styleUrls: ['./latency.component.css']
 })
 export class LatencyComponent implements OnInit {
-
+  @Input () latencyList: IDevicelatency[]=[]
   constructor() { }
 
-  deviceData: IDevicelatency []=[
-    {
-      devices:'laptop',
-      pingAvg:'73.25',
-      pingMin:'42',
-      pingMax:'139'
-    },{
-      devices:'laptop',
-      pingAvg:'73.25',
-      pingMin:'42',
-      pingMax:'139'
-    },{
-      devices:'laptop',
-      pingAvg:'73.25',
-      pingMin:'42',
-      pingMax:'139'
-    }
-  ];
+  // deviceData: IDevicelatency []=[
+  //   {
+  //     devices:'laptop',
+  //     pingAvg:'73.25',
+  //     pingMin:'42',
+  //     pingMax:'139'
+  //   },{
+  //     devices:'laptop',
+  //     pingAvg:'73.25',
+  //     pingMin:'42',
+  //     pingMax:'139'
+  //   },{
+  //     devices:'laptop',
+  //     pingAvg:'73.25',
+  //     pingMin:'42',
+  //     pingMax:'139'
+  //   }
+  // ];
 
   ngOnInit(): void {
 

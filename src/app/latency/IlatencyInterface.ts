@@ -2,7 +2,7 @@
 export interface IDevicelatency{
 
     devices:string,
-    pingAvg:string,
-    pingMin:string,
-    pingMax:string
+    PingAvg:string,
+    PingMin:string,
+    PingMax:string
 }

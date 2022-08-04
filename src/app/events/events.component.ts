@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit, Input } from '@angular/core'
 import { iEvents } from './events'
 
 @Component({
@@ -7,6 +7,7 @@ import { iEvents } from './events'
   styleUrls: ['./events.component.css']
 })
 export class EventsComponent implements OnInit {
+  @Input() eventList: iEvents[] = []
   constructor() { 
     
   }
