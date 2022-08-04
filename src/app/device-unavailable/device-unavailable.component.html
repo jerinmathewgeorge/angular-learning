@@ -13,13 +13,13 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>wfwewf</td>
-                    <td>qfqw</td>
-                    <td>qwrf</td>
-                    <td>qwrw</td>
-                    <td>qerq</td>
-                    <td>qwrw</td>
+                <tr *ngFor='let device of deviceData'>
+                    <td>{{device.Device}}</td>
+                    <td>{{device.PingState}}</td>
+                    <td>{{device.IP}}</td>
+                    <td>{{device.Time}}</td>
+                    <td>{{device.Location}}</td>
+                    <td>{{device.Contact}}</td>
                 </tr>
             </tbody>
         </table>
