@@ -1,0 +1,47 @@
+
+.device-main {
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 90%;
+}
+.event-heading {
+    text-align: center;
+    height: 20px;
+    font-size: 14px;
+}
+
+.table-conatiner {
+    height: calc(100% - 40px);
+    margin: 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+
+.table thead tr {
+    background: #ededed;
+    color: #00cadf;
+    font-weight: bold;
+}
+
+.table tr {
+    height: 30px;
+    font-size: 12px;
+}
+
+.table tbody tr{
+    border: 1px solid #f9f8f8;
+}
+
+.table tbody tr td{
+    border: 1px solid #f9f8f8;
+}
+
+.table tr td {
+    padding-left: 3px;
+}

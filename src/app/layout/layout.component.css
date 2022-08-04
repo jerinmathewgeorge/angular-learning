@@ -1,18 +1,15 @@
-.main{
-
-}
-
-.main .header {
+.header {
     width: 100%;
-    height: 10%;
-}
-
-.header .header-icons {
     height: 50px;
+    padding: 0 5px;
 }
-.body {
-    width: 100%;
-    height: 90%;
+.header-left {
+    text-align: end;
+    align-self: center;
+}
+.header-right {
+    text-align: end;
+    align-self: center;
 }
 
 .left-conatiner {
