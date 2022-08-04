@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
 import { StatusCardComponent } from './status-card/status-card.component';
 import { DeviceUnavailableComponent } from './device-unavailable/device-unavailable.component';
+import { LatencyComponent } from './latency/latency.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { DeviceUnavailableComponent } from './device-unavailable/device-unavaila
     LayoutComponent,
     StatusCardComponent,
     DeviceUnavailableComponent,
+    LatencyComponent
   ],
   imports: [
     BrowserModule,
