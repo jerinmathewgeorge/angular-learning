@@ -42,4 +42,5 @@
 .right-conatiner .latency{
     border: 1px solid;
     width: 50%;
+    background-color: white;
 }

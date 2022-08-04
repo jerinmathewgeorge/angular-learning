@@ -3,7 +3,8 @@
     margin: 5px;
     border: 1px solid gray;
     border-radius: 5px;
-    height: 90%;
+    height: 95%;
+    background-color: white;
 }
 .event-heading {
     text-align: center;
@@ -33,7 +34,10 @@
     height: 30px;
     font-size: 12px;
 }
-
+.table tbody {
+    height: 50px;
+    overflow-y: auto;
+}
 .table tbody tr{
     border: 1px solid #f9f8f8;
 }

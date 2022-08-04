@@ -7,6 +7,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { EventsComponent } from './events/events.component';
 import { StatusCardComponent } from './status-card/status-card.component';
 import { DeviceUnavailableComponent } from './device-unavailable/device-unavailable.component';
+import { LatencyComponent } from './latency/latency.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { DeviceUnavailableComponent } from './device-unavailable/device-unavaila
     LayoutComponent,
     DeviceUnavailableComponent,
     EventsComponent    ,StatusCardComponent,
+    LatencyComponent
   ],
   imports: [
     BrowserModule,
