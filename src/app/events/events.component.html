@@ -1,0 +1,27 @@
+<div class="event-main">
+    <div class="event-heading">Last 10 events</div>
+    <div class="table-conatiner">
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Time</td>
+                    <td>Device</td>
+                    <td>Entity</td>
+                    <td>Event</td>
+                    <td>State</td>
+                    <td>Time in previous state</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let event of events">
+                    <td>{{ event.Time }}</td>
+                    <td>{{ event.Devices }}</td>
+                    <td>{{ event.Entity }}</td>
+                    <td>{{ event.Event }}</td>
+                    <td>{{ event.State }}</td>
+                    <td>{{ event.TimePrevState }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
