@@ -38,30 +38,28 @@
     display: flex;
     height: 50%;
     justify-content: space-between;
-    border: 1px solid;
 
 }
 .left-conatiner .dashboard {
-    border: 1px solid;
     width:30%;
 }
 .left-conatiner .event {
-    border: 1px solid;
     width: 70%;
 }
 .right-conatiner {
     display: flex;
     height: 50%;
     justify-content: space-between;
-    border: 1px solid;
     
 }
 .right-conatiner .unavailable {
-    border: 1px solid;
     width: 50%;;
 }
 
 .right-conatiner .latency{
-    border: 1px solid;
     width: 50%;
+    background-color: white;
+}
+.event {
+    background-color: white;
 }
