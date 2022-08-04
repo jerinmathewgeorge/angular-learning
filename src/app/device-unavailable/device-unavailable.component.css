@@ -49,3 +49,6 @@
 .table tr td {
     padding-left: 3px;
 }
+.deviceTd{
+    text-decoration: underline;
+}
