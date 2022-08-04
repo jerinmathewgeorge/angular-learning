@@ -1,13 +1,16 @@
   
     <div class="main-container">
-        <p class="text-center">Top 10 Device Latency</p>
+        <p >Top 10 Device Latency</p>
         <table class="table-wrapper" *ngIf="deviceData.length">
-            <tr>
-                <th>Device</th>
-                <th>Ping RTT(average)</th>
-                <th>Ping RTT(Minimum)</th>
-                <th>Ping RTT(Maximum)</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Device</th>
+                    <th>Ping RTT(average)</th>
+                    <th>Ping RTT(Minimum)</th>
+                    <th>Ping RTT(Maximum)</th>
+                </tr>
+            </thead>
+           
             <tbody >
                 <tr *ngFor="let data of deviceData" >
                     <td>{{data.devices}}</td>
