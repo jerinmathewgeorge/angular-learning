@@ -1,7 +1,7 @@
   
     <div class="main-container">
         <p >Top 10 Device Latency</p>
-        <table class="table-wrapper" *ngIf="deviceData.length">
+        <table class="table-wrapper" *ngIf="latencyList?.length">
             <thead>
                 <tr>
                     <th>Device</th>
@@ -12,11 +12,11 @@
             </thead>
            
             <tbody >
-                <tr *ngFor="let data of deviceData" >
-                    <td>{{data.devices}}</td>
-                    <td>{{data.pingAvg }} ms </td>
-                    <td>{{data.pingMin}} ms</td>
-                    <td>{{data.pingMax}} ms</td>
+                <tr *ngFor="let data of latencyList" >
+                    <td>{{data?.devices}}</td>
+                    <td>{{data?.PingAvg }} ms </td>
+                    <td>{{data?.PingMin}} ms</td>
+                    <td>{{data?.PingMax}} ms</td>
                 </tr>
             </tbody>
            

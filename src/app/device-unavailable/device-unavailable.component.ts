@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Device } from './device-unavailable';
 
 @Component({
@@ -7,6 +7,7 @@ import { Device } from './device-unavailable';
   styleUrls: ['./device-unavailable.component.css']
 })
 export class DeviceUnavailableComponent implements OnInit {
+  @Input () deviceList: Device[]=[]
 
   constructor() { }
    deviceData: Device[]=[{
