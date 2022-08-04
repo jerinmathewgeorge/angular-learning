@@ -8,6 +8,7 @@ import { EventsComponent } from './events/events.component';
 import { StatusCardComponent } from './status-card/status-card.component';
 import { DeviceUnavailableComponent } from './device-unavailable/device-unavailable.component';
 import { LatencyComponent } from './latency/latency.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { LatencyComponent } from './latency/latency.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
