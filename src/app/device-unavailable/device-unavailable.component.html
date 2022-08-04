@@ -5,7 +5,8 @@
             <thead>
                 <tr>
                     <td>Device
-                        <img class="img" src="https://cdn2.iconfinder.com/data/icons/lightly-icons/30/chevron-down-480.png"/>
+                        <img *ngIf="filterasc" (click) = "filterDivice('asc')" class="img" src="https://cdn2.iconfinder.com/data/icons/lightly-icons/30/chevron-down-480.png"/>
+                        <img *ngIf="!filterasc" (click) = "filterDivice('dsc')" class="img1" src="https://cdn2.iconfinder.com/data/icons/lightly-icons/30/chevron-down-480.png"/>
                     </td>
                     <td>Ping State</td>
                     <td>IP Address</td>

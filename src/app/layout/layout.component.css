@@ -45,6 +45,8 @@
 }
 .left-conatiner .event {
     width: 70%;
+    border-radius: 5px;
+    margin: 5px;
 }
 .right-conatiner {
     display: flex;
