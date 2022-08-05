@@ -10,12 +10,12 @@ export class LayoutService {
   constructor(private http:HttpClient) { }
 
   getDevicesList(){
-    return this.http.get('http://localhost:3000/devices');
+    return this.http.get('devices');
   }
   getLatencyList(){
-    return this.http.get('http://localhost:3000/latency');
+    return this.http.get('latency');
   }
   getEventsList(){
-    return this.http.get('http://localhost:3000/events');
+    return this.http.get('events');
   }
 }

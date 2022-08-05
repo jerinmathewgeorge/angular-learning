@@ -8,7 +8,8 @@ import { EventsComponent } from './events/events.component';
 import { StatusCardComponent } from './status-card/status-card.component';
 import { DeviceUnavailableComponent } from './device-unavailable/device-unavailable.component';
 import { LatencyComponent } from './latency/latency.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http'
+import { LayoutInterceptor } from './layout.interceptor';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { HttpClientModule } from '@angular/common/http'
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [{provide:HTTP_INTERCEPTORS,useClass:LayoutInterceptor,multi:true}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
